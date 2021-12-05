@@ -1,5 +1,3 @@
-// employee (name and title), company (name and [employees], )
-// game (name and rating) game type(name and [games] menu (create,view, delete, display))
 
 class Game {
   constructor(name, rating) {
@@ -12,8 +10,8 @@ class Game {
 }
 
 class GameType {
-  constructor(type) {
-    this.type = type;
+  constructor(name) {
+    this.type = name;
     this.games = [];
   }
   addGame(game) {
