@@ -11,7 +11,7 @@ class Game {
 
 class GameType {
   constructor(name) {
-    this.type = name;
+    this.name = name;
     this.games = [];
   }
   addGame(game) {
